@@ -244,7 +244,10 @@ export default class JobDetails extends React.Component {
                         </a>
                       </li>
                       <li>
-                        <a href={this.state.job._links.status.href}>Status </a>
+                        <a href={this.state.job._links.status.href}>Status</a>
+                      </li>
+                      <li>
+                        <a href={this.state.job._links.output.href}>Output</a>
                       </li>
                     </ul>
                   </td>
